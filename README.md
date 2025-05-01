@@ -1,7 +1,7 @@
 # Pobieranie słów kluczowych z Google Search Console (GSC)
 
 ## Opis
-Skrypt `keywords-gsc.py` automatycznie pobiera wszystkie słowa kluczowe (frazy) z Google Search Console dla wybranej domeny w zakresie od dnia dzisiejszego do 16 miesięcy wstecz i eksportuje wynik do pliku CSV.
+Skrypt w pytonie `keywords-gsc.py` automatycznie pobiera wszystkie słowa kluczowe (frazy) z Google Search Console dla wybranej domeny w zakresie od dnia dzisiejszego do 16 miesięcy wstecz i eksportuje wynik do pliku CSV.
 
 ## Wymagania
 - Python 3
@@ -71,6 +71,9 @@ Aby pobrać dane z Google Search Console przez API, potrzebujesz pliku autoryzac
 - Jeśli pojawia się błąd o nieaktywnej usłudze API: aktywuj Search Console API w Google Cloud Console dla projektu powiązanego z kontem serwisowym.
 - Jeśli brakuje pakietów, zainstaluj je poleceniem z sekcji "Przygotowanie środowiska".
 
+---
+
+License: :D
 
 ---
 Dokumentacja zaktualizowana: 2025-05-01.
