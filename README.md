@@ -71,14 +71,8 @@ Aby pobrać dane z Google Search Console przez API, potrzebujesz pliku autoryzac
 - Jeśli pojawia się błąd o nieaktywnej usłudze API: aktywuj Search Console API w Google Cloud Console dla projektu powiązanego z kontem serwisowym.
 - Jeśli brakuje pakietów, zainstaluj je poleceniem z sekcji "Przygotowanie środowiska".
 
----
-Repozytorium zostało upublicznione na GitHubie: [frazyz-z-GSC](https://github.com/rskonieczka/frazyz-z-GSC)
-
-Pierwszy commit: "tak"
-
-Data utworzenia repozytorium: 2025-05-01
 
 ---
 Dokumentacja zaktualizowana: 2025-05-01.
-# frazyz-z-GSC
-# frazyz-z-GSC
+
+
