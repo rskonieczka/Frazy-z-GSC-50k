@@ -1,2 +1,47 @@
 indexing-api.json
 frazy_gsc_2024-01-07_2025-05-01.csv
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pliki CSV z danymi (mogą zawierać poufne informacje)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# Pliki konfiguracyjne i środowiskowe
+.env
+.env.*
+config.ini
+*.config
+*.cfg
+credentials.json
+client_secrets.json
+*_secrets.*
+*_key.*
+*_credentials.*
+
+# Logi i dane tymczasowe
+*.log
+logs/
+*.tmp
+.cache/
+.pytest_cache/
+temp/
+tmp/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lokalne pliki IDE
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+.project
+.pydevproject
+.settings/

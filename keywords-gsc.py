@@ -27,7 +27,7 @@ while True:
         'startRow': start_row
     }
     response = service.searchanalytics().query(
-        siteUrl='https://TwojaDomena.pl',
+        siteUrl='https://TwojaDomena.pl/',
         body=request
     ).execute()
     rows = response.get('rows', [])

@@ -15,6 +15,21 @@ Skrypt w pytonie `keywords-gsc.py` automatycznie pobiera wszystkie słowa kluczo
    pip install -r requirements.txt
    ```
 
+### Alternatywne przygotowanie z wirtualnym środowiskiem (zalecane)
+1. Umieść plik `indexing-api.json` w katalogu skryptu.
+2. Utwórz wirtualne środowisko Python:
+   ```bash
+   python3 -m venv venv
+   ```
+3. Aktywuj wirtualne środowisko:
+   ```bash
+   source venv/bin/activate
+   ```
+4. Zainstaluj wymagane pakiety w wirtualnym środowisku:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ## Jak uzyskać plik indexing-api.json (Service Account)
 
 Aby pobrać dane z Google Search Console przez API, potrzebujesz pliku autoryzacyjnego konta serwisowego (`indexing-api.json`).
@@ -50,6 +65,20 @@ Aby pobrać dane z Google Search Console przez API, potrzebujesz pliku autoryzac
    ```
 3. Wynik zostanie zapisany w pliku o nazwie `frazy_gsc_<data_start>_<data_koniec>.csv` (np. `frazy_gsc_2024-01-01_2025-05-01.csv`).
 
+### Uruchomienie w wirtualnym środowisku
+1. Jeśli używasz wirtualnego środowiska, najpierw aktywuj je:
+   ```bash
+   source venv/bin/activate
+   ```
+2. Następnie uruchom skrypt:
+   ```bash
+   python keywords-gsc.py
+   ```
+3. Po zakończeniu pracy możesz dezaktywować wirtualne środowisko:
+   ```bash
+   deactivate
+   ```
+
 ## Automatyzacja zakresu dat i paginacja
 - Skrypt automatycznie ustala zakres dat od dziś do 16 miesięcy wstecz (maksymalny zakres wspierany przez GSC API).
 - Pobieranie odbywa się partiami po 25 000 fraz (paginacja przez `startRow`).
@@ -77,5 +106,3 @@ License: :D
 
 ---
 Dokumentacja zaktualizowana: 2025-05-01.
-
-
